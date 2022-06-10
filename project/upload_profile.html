@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/feather-icons-web/feather.css">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <section class="main container-fluid">
+        <div class="row">
+    <!-- Side Bar Start -->
+            <div class="col-12 col-lg-3 col-xl-2 vh-100 sidebar">
+                <div class="d-flex justify-content-between align-items-center py-2 mt-3">
+                    <div class="d-flex align-items-center">
+                        <span class="bg-primary p-2 rounded mr-1 d-flex justify-content-center align-items-center">
+                            <i class="feather-shopping-bag"></i>
+                        </span>
+                        <span class="font-weight-bolder mb-0 h4 text-primary text-uppercase">My Shop</span>
+                    </div>
+                    <button class="btn btn-light hide-sidebar-btn d-block d-lg-none">
+                        <i class="feather-x text-primary" style="font-size: 2em;"></i>
+                    </button>
+                </div>
+
+                <div class="nav-menu">
+                    <ul>
+                        <li class="menu-item">
+                            <a href="dashboard.html" class="menu-item-link active">
+                                <span>
+                                    <i class="feather-home"></i>
+                                    Dashboard
+                                </span>
+                            </a>
+                        </li>
+                        <li class="menu-spacer"></li>
+
+                        <li class="menu-title">
+                            <span>Manage Item</span>
+                        </li>
+                        <li class="menu-item">
+                            <a href="item_add.html" class="menu-item-link">
+                                <span>
+                                    <i class="feather-plus-circle"></i>
+                                    Add Item
+                                </span>
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="item_list.html" class="menu-item-link">
+                                <span>
+                                    <i class="feather-list"></i>
+                                    Item List
+                                </span>
+                                <span class="badge badge-pill bg-white shadow-sm p-1">15</span>
+                            </a>
+                        </li>
+                        <li class="menu-spacer"></li>
+
+                        <li class="menu-title">
+                            <span>Manage Item</span>
+                        </li>
+                        <li class="menu-item">
+                            <a href="item_add.html" class="menu-item-link">
+                                <span>
+                                    <i class="feather-plus-circle"></i>
+                                    Add Item
+                                </span>
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="item_list.html" class="menu-item-link">
+                                <span>
+                                    <i class="feather-list"></i>
+                                    Item List
+                                </span>
+                                <span class="badge badge-pill bg-white shadow-sm p-1">15</span>
+                            </a>
+                        </li>
+                        <li class="menu-spacer"></li>
+
+                        <li class="menu-title">
+                            <span>Manage Item</span>
+                        </li>
+                        <li class="menu-item">
+                            <a href="item_add.html" class="menu-item-link">
+                                <span>
+                                    <i class="feather-plus-circle"></i>
+                                    Add Item
+                                </span>
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="item_list.html" class="menu-item-link">
+                                <span>
+                                    <i class="feather-list"></i>
+                                    Item List
+                                </span>
+                                <span class="badge badge-pill bg-white shadow-sm p-1">15</span>
+                            </a>
+                        </li>
+                        <li class="menu-spacer"></li>
+
+                        <li class="menu-title">
+                            <span>Manage Item</span>
+                        </li>
+                        <li class="menu-item">
+                            <a href="item_add.html" class="menu-item-link">
+                                <span>
+                                    <i class="feather-plus-circle"></i>
+                                    Add Item
+                                </span>
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="item_list.html" class="menu-item-link">
+                                <span>
+                                    <i class="feather-list"></i>
+                                    Item List
+                                </span>
+                                <span class="badge badge-pill bg-white shadow-sm p-1">15</span>
+                            </a>
+                        </li>
+                        <li class="menu-spacer"></li>
+
+                        <li class="menu-title">
+                            <span>Manage Item</span>
+                        </li>
+                        <li class="menu-item">
+                            <a href="item_add.html" class="menu-item-link">
+                                <span>
+                                    <i class="feather-plus-circle"></i>
+                                    Add Item
+                                </span>
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="item_list.html" class="menu-item-link">
+                                <span>
+                                    <i class="feather-list"></i>
+                                    Item List
+                                </span>
+                                <span class="badge badge-pill bg-white shadow-sm p-1">15</span>
+                            </a>
+                        </li>
+                        <li class="menu-spacer"></li>
+                    </ul>
+                </div>
+            </div><!--aside-->
+    <!-- Side Bar End -->
+            <div class="col-12 col-lg-9 col-xl-10 vh-100 py-3 content">
+
+                <div class="row header mb-4">
+                    <div class="col-12">
+                        <div class="p-2 bg-primary rounded d-flex justify-content-between align-items-center">
+                            <button class="btn btn-primary show-sidebar-btn d-block d-lg-none">
+                                <i class="feather-menu text-light" style="font-size: 2em;"></i>
+                            </button>
+
+                            <form class="d-none d-md-block" action="" method="POST">
+                                <div class="form-inline">
+                                    <input type="text" class="form-control">
+                                    <button class="btn btn-light">
+                                       <i class="feather-search"></i>
+                                    </button>
+                                </div>
+                            </form>
+                            <div class="dropdown d-block">
+                                <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  <img src="img/user/avatar1.jpg" class="user-img shadow-sm">Saung Hayman Oo
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                  <a class="dropdown-item" href="#">Action</a>
+                                  <a class="dropdown-item" href="#">Another action</a>
+                                  <div class="dropdown-divider"></div>
+                                  <a class="dropdown-item" href="#">Logout</a>
+                                </div>
+                              </div>
+
+                        </div>
+                    </div>
+                   
+                </div>
+        <!-- content area Start -->
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <form action="post" class="">
+                                <div class="form-group">
+                                    <img src="img/user/avatar1.jpg" class="user-img shadow-sm">Saung Hayman Oo
+                                    <hr>
+                                    <label for="" class="d-block mt-2">Upload Profile</label>
+                                    <input class="form-control p-1" type="file" name="upload" id="file">
+                                
+                                </div>
+                                <div class="form-group">
+                                    <label for="">Change Name</label>
+                                    <input class="Cname form-control" id="Cname" type="text">
+                                </div>
+                                <button class="btn btn-primary rounded" id="uploadbutton">Upload</button>
+                            </form>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+        <!-- content area end -->
+            </div><!--content-->
+        
+        </div><!--row fluid-->
+    </section><!--container fluid-->
+    
+    <script src="vendor/jquery-3.3.1.min.js"></script>
+    <!-- <script src="vendor/bootstrap/js/bootstrap.min.js"></script> -->
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/way_point/jquery.waypoints.min.js"></script>
+    <script src="vendor/counter_up/counter_up.js"></script>
+    <script src="vendor/chart_js/chart.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/dashboard.js"></script>
+    <script>
+        
+    </script>
+    
+</body>
+</html>
